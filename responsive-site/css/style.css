@@ -17,20 +17,24 @@ body {
   width: 33.33333%;
   margin: 10px;
   padding: 0px;
-  border: 1px solid; }
+  border: 1px solid blue; }
   .skill-box h2 {
     margin: 0px;
     padding: 20px;
     text-align: center;
-    border-bottom: 1px solid; }
+    border-bottom: 1px solid blue;
+    background-color: skyblue;
+    font-size: 14px; }
   .skill-box p {
     padding: 20px; }
 
 .header {
-  text-align: center; }
+  text-align: center;
+  font-size: 20px; }
 
 .footer {
-  background-color: red; }
+  margin-top: 30px;
+  border-top: 1px solid; }
   .footer h3 {
     text-align: center;
     padding-top: 20px;
@@ -51,7 +55,7 @@ body {
       border: 1px;
       line-height: 25px;
       width: 200px;
-      background-color: white; }
+      background-color: pink; }
 
 @media (max-width: 768px) {
   .flexible-images {
@@ -61,6 +65,9 @@ body {
     flex-direction: column; }
 
   .skill-box {
-    width: 95%; } }
+    width: 95%; }
+    .skill-box p {
+      color: white;
+      background-color: gray; } }
 
 /*# sourceMappingURL=style.css.map */
