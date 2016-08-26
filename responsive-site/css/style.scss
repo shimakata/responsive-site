@@ -3,9 +3,11 @@
 $base-color: #FFFFF0;
 $sub-color: #DCC2FF;
 $accent-color: #191970;
+$fontColor: #4c4c4c;
 
 
 body{
+  color: $fontColor;
   font-family:Helvetica,Arial, Roboto, “Droid Sans”, “游ゴシック”, YuGothic,“ヒラギノ角ゴ ProN W3″,“Hiragino Kaku Gothic ProN”, “メイリオ”,Meiryo, sans-serif;
   margin:0px;
   padding:0px;
@@ -30,6 +32,7 @@ body{
   margin: 10px;
   padding: 0px;
   border: 1px solid $sub-color;
+  background-color:white;
 
   h2{
     margin:0px;
@@ -43,9 +46,7 @@ body{
   p{
     padding: 20px;
     margin: 0px;
-    background-color:white;
-      font-size: 14px;
-
+    font-size: 14px;
   }
 }
 
@@ -94,6 +95,7 @@ h3{
     color:white;
     font-size: 14px;
   }
+
 }
 
 strong{
@@ -111,7 +113,6 @@ strong{
   .skill-box {
     width:90%;
     margin: 10px auto;
-
   }
 }
 
